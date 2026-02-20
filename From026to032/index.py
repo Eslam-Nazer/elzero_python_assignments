@@ -19,7 +19,7 @@ print(unique_list)
 print("-" * 50)
 
 nums = {1, 2, 3}
-letters = {"A", "B", "C"}
+letters: set[Any] = {"A", "B", "C"}
 
 # Needed Output
 
